@@ -11,6 +11,6 @@ def mouni(request):
         c.save()
     for i in b:
         u=i.input2
-    return HttpResponse('hello world'+r+u)
+    return HttpResponse('hello world'+r+u+" ")
 
 # Create your views here.
